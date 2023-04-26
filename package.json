@@ -32,7 +32,8 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "init-msw": "msw init public/",
-    "test-storybook": "test-storybook"
+    "test-storybook": "test-storybook",
+    "chromatic": "npx chromatic --project-token=b1427c1fc6de"
   },
   "eslintConfig": {
     "extends": [
@@ -77,6 +78,7 @@
     "@storybook/test-runner": "^0.10.0",
     "@storybook/testing-library": "^0.1.0",
     "babel-plugin-named-exports-order": "^0.0.2",
+    "chromatic": "^6.17.3",
     "msw": "^0.42.0",
     "msw-storybook-addon": "^1.8.0",
     "prop-types": "^15.8.1",

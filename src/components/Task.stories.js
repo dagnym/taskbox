@@ -34,3 +34,13 @@ Archived.args = {
     state: 'TASK_ARCHIVED',
   },
 };
+
+const longTitleString = "This task's title/name is ridiculously large and in fact I think it will probably go beyond the borders of what our task is able to display on the screen."
+
+export const LongTitle = Template.bind({});
+LongTitle.args = {
+  task: {
+    ...Default.args.task,
+    title: longTitleString,
+  },
+};
